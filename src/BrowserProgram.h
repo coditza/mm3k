@@ -1,5 +1,5 @@
 #pragma once
-#include "programbase.h"
+#include "ProgramBase.h"
 
 class CBrowserProgram :
     public CProgramBase

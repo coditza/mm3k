@@ -1,11 +1,7 @@
 #include <stdio.h>
-#include <tchar.h>
 #include <stdlib.h>
 #include <time.h>
-#include <windows.h>
-
-#include "wx/wx.h"
-
+#include <wx/wx.h>
 
 #define EMPTY_SPACE 0
 #define DISABLED_SPACE -1

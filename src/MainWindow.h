@@ -2,10 +2,6 @@
 #include "stdafx.h"
 #include "GameObject.h"
 #include <wx/dcbuffer.h>
-//#include "c:\wxwidgets-2.8.11_src\include\wx\msw\frame.h"
-
-
-
 
 class CMainWindow: public wxFrame
 {
