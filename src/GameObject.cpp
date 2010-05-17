@@ -204,7 +204,7 @@ bool CGameObject::OpApply(int page, int byte)
                 ModHappyUser(currentOp->program);
                 
                 // remove from queue
-                std::vector<OP_QUEUE_ITEM *>::const_iterator iter = m_requestsQueue.begin();
+                std::vector<OP_QUEUE_ITEM *>::iterator iter = m_requestsQueue.begin();
                 m_requestsQueue.erase(iter);
                 delete currentOp;
                 currentOp = NULL;
@@ -216,7 +216,7 @@ bool CGameObject::OpApply(int page, int byte)
                 ModHappyUser(currentOp->program);
                 
                 // remove from queue
-                std::vector<OP_QUEUE_ITEM *>::const_iterator iter = m_requestsQueue.begin();
+                std::vector<OP_QUEUE_ITEM *>::iterator iter = m_requestsQueue.begin();
                 m_requestsQueue.erase(iter);
                 delete currentOp;
                 currentOp = NULL;

@@ -144,7 +144,7 @@ void CMainWindow::OnRandomize(wxCommandEvent& WXUNUSED(event))
 
 void CMainWindow::OnRefresh(wxCommandEvent& WXUNUSED(event))
 {
-    OnPaint(wxPaintEvent());
+    this->Refresh(true);
 }
 
 void CMainWindow::OnQuit(wxCommandEvent& WXUNUSED(event))
